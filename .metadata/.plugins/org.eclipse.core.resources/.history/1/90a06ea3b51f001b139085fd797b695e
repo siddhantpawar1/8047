@@ -1,0 +1,38 @@
+package RedifObjectrepo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class RedifLoginpagePOF {
+
+	WebDriver driver;
+
+	public RedifLoginpagePOF(WebDriver driver) {
+
+		this.driver = driver;
+
+	}
+
+	@FindBy(xpath = "//input[@id='login1']")
+	WebElement userName;
+
+	@FindBy(xpath = "//input[@id='password']")
+	WebElement passCode;
+
+	@FindBy(xpath = "//input[@type='submit']")
+	WebElement Submit;
+
+	public WebElement uname() {
+		return userName;
+	}
+
+	public WebElement uname() {
+		return passCode;
+	}
+
+	public WebElement uname() {
+		return Submit;
+	}
+}

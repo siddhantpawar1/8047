@@ -1,0 +1,25 @@
+package Java_Learning;
+
+public class Globalvar_5 {
+
+	int age;
+	double marks;
+	
+	public void Instancevariable(int roll, double marks) {
+	this.age();
+	this.marks();
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}	
+		
+
+	}
+
+

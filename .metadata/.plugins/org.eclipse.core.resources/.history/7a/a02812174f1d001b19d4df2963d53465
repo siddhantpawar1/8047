@@ -1,0 +1,9 @@
+package amazonApplication;
+
+public class jobapplicationSearch {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

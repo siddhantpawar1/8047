@@ -1,0 +1,16 @@
+import org.testng.annotations.Test;
+
+public class Test {
+
+	@Test
+	public void ThirdTC() {
+	System.out.println("Testing TestNG 1st TCT");
+		
+	}
+	@Test
+	public void FourthTC() {
+	System.out.println("Testing TestNG 2nd TC");
+		
+	}
+
+}

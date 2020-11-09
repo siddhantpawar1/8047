@@ -1,0 +1,29 @@
+package Java_Learning;
+
+public class methoddemo2 {
+
+	
+		System.out.println("Begins execution of the program....");
+		
+		String name1 = "siddhant";
+		String name2 = "Priyanka";
+		
+		System.out.println("This ends the program execution!!!");
+			
+		
+		
+		public  void sum()
+		
+		{
+			System.out.println("It performs addition");
+			
+		}
+		
+		
+		public  void sub() {
+			
+			System.out.println("It performs subtracting");
+			
+		}
+
+	}

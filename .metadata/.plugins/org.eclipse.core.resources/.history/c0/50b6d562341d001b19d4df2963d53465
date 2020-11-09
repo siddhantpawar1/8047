@@ -1,0 +1,11 @@
+package handleTextboxandBtn;
+
+public class SendEmail {
+
+	public static void main(String[] args) {
+		
+		
+		Email email = new SimpleEmail();
+	}
+
+}

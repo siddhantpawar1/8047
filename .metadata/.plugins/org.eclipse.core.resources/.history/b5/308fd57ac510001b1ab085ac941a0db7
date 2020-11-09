@@ -1,0 +1,12 @@
+package Java_Learning;
+
+public class booleanstring {
+
+	public static void main(String[] args) {
+		
+		string = "you are mad";
+		string= "we all have some madness";
+
+	}
+
+}

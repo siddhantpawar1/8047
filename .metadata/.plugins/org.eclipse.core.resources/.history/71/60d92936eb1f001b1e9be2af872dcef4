@@ -1,0 +1,32 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LoginPage {
+	
+	
+	public WebDriver driver;
+
+	By EmailID = By.xpath("//input[@type='email']");
+	By Pass = By.xpath("//input[@type='password']");
+	By Submit = By.xpath("//input[@value='Log In']");
+
+	public LoginPage(WebDriver driver) {
+		
+		this.driver = driver;
+	}
+
+	public WebElement ID() {
+
+		return driver.findElement(EmailID);
+	}
+	public WebElement ID() {
+
+		return driver.findElement(EmailID);
+	}
+
+}
+
+

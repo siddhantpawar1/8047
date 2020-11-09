@@ -1,0 +1,32 @@
+package Framework.RS_End2End;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageObjects.LandingPage;
+import pageObjects.LoginPage;
+import resources.base;
+
+public class HomePage extends base {
+
+	@Test
+	public void basePagenavigation() throws Exception {
+		driver = initializeDriver();
+		driver.get("http://www.qaclickacademy.com/");
+		driver.manage().window().maximize();
+
+		LandingPage Lp = new LandingPage(driver);
+		Lp.getLogin().click();
+
+		LoginPage Log = new LoginPage(driver);
+		Log.ID().sendKeys("abc@qw.com");
+		Log.Pass().sendKeys("123456");
+		Log.Submit().click();
+	}
+
+	@DataProvider
+	public void getData() {
+
+	}
+
+}

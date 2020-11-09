@@ -1,0 +1,25 @@
+package DataDriven.Framework;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class datadriven {
+
+	
+	public static void main (String[] args) throws IOException {
+		
+		FileInputStream fis = new FileInputStream("C://Users//sidpw//OneDrive//Desktop//Learn Programming Languages//1. Selenium Java//Java - Selenium Reddy//Data Driven//DemoData.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+	
+		int sheets = workbook.getNumberOfSheets();
+		for(int i=0;i<sheets;i++) {
+			
+			XSSFSheet sheet =workbook.getSheetAt(i);
+		}
+	
+	}
+	
+}

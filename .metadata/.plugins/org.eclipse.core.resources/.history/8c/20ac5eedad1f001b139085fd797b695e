@@ -1,0 +1,19 @@
+package Testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import Objectrepository.RedifLoginpage;
+
+public class Loginapplication {
+	
+	@Test	
+	public void login() {
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\sidpw\\OneDrive\\Desktop\\Siddhant_Files\\Software\\chromedriver_win32\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+	RedifLoginpage RLP = new RedifLoginpage(driver);
+	
+	
+	}
+	}

@@ -1,0 +1,14 @@
+package MyProject;
+
+   public class Constant {
+ 
+      public static final String URL = "https://login.yahoo.com/?.src=ym&lang=en-US&done=https%3A%2F%2Fmail.yahoo.com%2F";
+ 
+      public static final String Username = "siddrocks1921@yahoo.com";
+ 
+      public static final String Password = "Gorilla-123";
+ 
+      public static final String Path_TestData = "C:\\Users\\sidpw\\OneDrive\\Desktop\\Learn Programming Languages\\1. Selenium Java\\Java - Selenium Reddy\\Data Driven\\TestData.xlsx"; 
+      public static final String File_TestData = "TestData.xlsx";
+ 
+   }

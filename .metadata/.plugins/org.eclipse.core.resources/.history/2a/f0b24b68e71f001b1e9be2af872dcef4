@@ -1,0 +1,18 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+public class LandingPage {
+
+	public WebDriver driver;
+	{
+		
+		By signin = By.xpath();
+	}
+	
+	public getLogin() {
+		
+		return driver.findElement(signin);
+	}
+	
+}

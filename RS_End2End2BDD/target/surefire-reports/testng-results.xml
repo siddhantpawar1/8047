@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25898" started-at="2020-11-07T20:40:49 EST" finished-at="2020-11-07T20:41:15 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25898" started-at="2020-11-07T20:40:49 EST" finished-at="2020-11-07T20:41:15 EST">
+      <class name="Framework.RS_End2End.HomePage">
+        <test-method status="PASS" signature="multipleusers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.RS_End2End.HomePage@74f0ea28]" name="multipleusers" duration-ms="13125" started-at="2020-11-07T20:40:49 EST" data-provider="getData" finished-at="2020-11-07T20:41:02 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleusers -->
+        <test-method status="PASS" signature="multipleusers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.RS_End2End.HomePage@74f0ea28]" name="multipleusers" duration-ms="12702" started-at="2020-11-07T20:41:02 EST" data-provider="getData" finished-at="2020-11-07T20:41:15 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleusers -->
+      </class> <!-- Framework.RS_End2End.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

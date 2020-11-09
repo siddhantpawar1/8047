@@ -1,0 +1,17 @@
+package Java_Learning;
+
+public class StringClass_6 {
+
+	public static void main(String[] args) {
+		String name = "Selenium webdriver";
+				
+		boolean status = name.startsWith("Selenium");
+		System.out.println("Status is :"+status);
+		
+		String statement = "The world is going to end soon";
+		
+		boolean status=statement.endsWith("soon");
+
+	}
+
+}

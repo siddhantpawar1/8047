@@ -1,0 +1,21 @@
+import org.testng.annotations.Test;
+
+public class IFrameVerify {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Just start");
+	}
+		
+		@Test
+		public void testFrames()
+		
+		{
+			
+			
+		}
+		
+		
+}
+
+

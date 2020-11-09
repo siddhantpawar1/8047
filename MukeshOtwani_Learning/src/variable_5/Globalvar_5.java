@@ -1,0 +1,31 @@
+package variable_5;
+
+public class Globalvar_5 {
+
+	int age;
+	double marks;
+
+	public Globalvar_5(int age, double marks) {
+		this.age = age;
+		this.marks = marks;
+
+	}
+
+	public void show() {
+
+		System.out.println("age is: " + age + "  " + "marks is: " + marks);
+
+	}
+
+	public static void main(String[] args) {
+
+		Globalvar_5 obj1 = new Globalvar_5(1, 20.5);
+		obj1.show();
+		Globalvar_5 obj2 = new Globalvar_5(2, 25.5);
+		obj2.show();
+		Globalvar_5 obj3 = new Globalvar_5(3, 30.5);
+		obj3.show();
+
+	}
+
+}

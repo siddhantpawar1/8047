@@ -1,0 +1,15 @@
+package Java_Learning;
+
+public class booleanstring {
+
+	public static void main(String[] args) {
+		
+		String actual = "you are mad";
+		String expected ="we all have some madness";
+		
+		boolean obj = actual.equals(expected);
+		System.out.println("Actual and expected match: "+obj);
+
+	}
+
+}

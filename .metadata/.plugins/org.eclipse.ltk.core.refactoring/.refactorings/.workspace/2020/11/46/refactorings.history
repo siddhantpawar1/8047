@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 packages to &apos;RS_End2End2BDD/src/test/java&apos;&#x0D;&#x0A;- Destination element: &apos;RS_End2End2BDD/src/test/java&apos;" description="Copy packages" destination="=RS_End2End2BDD/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" flags="589830" fragments="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1604892523566" version="1.0"/>
+</session>

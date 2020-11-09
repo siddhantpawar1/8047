@@ -1,0 +1,20 @@
+package RedifObjectrepo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Createaccount {
+
+	WebDriver driver;
+
+	public void RedifCreatepagee(WebDriver driver) {
+
+		this.driver = driver;
+
+	}
+	
+	By name = By.xpath("//input[@name='namee92062c7']");
+	By name = By.xpath("//input[@name='namee92062c7']");
+	
+}

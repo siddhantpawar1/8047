@@ -1,0 +1,15 @@
+package Java_Learning;
+
+public class LocalGlobalVar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x=0;
+		System.out.println("Print the value of X "+x);
+		
+		
+
+	}
+
+}

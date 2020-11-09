@@ -1,0 +1,15 @@
+package Java_Learning;
+
+public class Conditionalstatement {
+
+	public static void main(String[] args) {
+		
+		int a=50;
+		if(a<100); {
+		System.out.println("Value of a is greater:" +a);
+	}
+		if(a<40);
+		System.out.println("value of b is greater" +a);
+	}
+
+}

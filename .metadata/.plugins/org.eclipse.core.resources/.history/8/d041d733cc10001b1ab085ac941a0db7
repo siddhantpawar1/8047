@@ -1,0 +1,23 @@
+package Java_Learning;
+
+public class PassingparamatersMethod_7 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	
+	
+	public void add(int x, int y) {
+		
+		
+	}
+	
+	
+	public void sub(double a, double b) {
+		
+		
+	}
+
+}

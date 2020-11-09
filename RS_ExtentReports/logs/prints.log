@@ -1,0 +1,6 @@
+13:34:31.172 [main] INFO  beta.logdemo - Landed on amazon home page
+13:34:43.633 [main] DEBUG beta.logdemo - Getting the frames count
+13:34:43.670 [main] INFO  beta.logdemo - Frames count retreived
+13:34:43.689 [main] INFO  beta.logdemo - Successfully switched to frame
+13:34:43.689 [main] DEBUG beta.logdemo - Identifying Draggable objects
+13:34:44.092 [main] INFO  beta.logdemo - Drag and drop success

@@ -1,0 +1,28 @@
+import org.testng.annotations.Test;
+
+public class Demo2 {
+
+	@Test
+	public void FourthTC() {
+		System.out.println("Testing TestNG 4th TC");
+
+	}
+
+	@Test
+	public void FifthTC() {
+		System.out.println("Testing TestNG 5th TC");
+
+	}
+
+	@Test
+	public void SixthTC() {
+		System.out.println("Testing TestNG 6th TC");
+
+	}
+
+	@Test
+	public void API2TC() {
+		System.out.println("Testing TestNG API2");
+	}
+
+}

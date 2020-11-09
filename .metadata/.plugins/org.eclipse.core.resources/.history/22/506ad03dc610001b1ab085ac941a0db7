@@ -1,0 +1,20 @@
+package Java_Learning;
+
+public class booleanstring {
+
+	public static void main(String[] args) {
+		
+		String actual = "you are mad";
+		String expected ="we all have some madness";
+		
+		
+		String sta1 = "THIS IS LIFE"; 
+		String sta2 = "this is life";
+		
+		
+		boolean obj = sta1.equalsIgnoreCase(sta2);
+		System.out.println("Actual and expected match: "+obj);
+
+	}
+
+}

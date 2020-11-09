@@ -1,0 +1,12 @@
+package Java_Learning;
+
+public class StringClass_6 {
+
+	public static void main(String[] args) {
+		String name = "Selenium webdriver"
+				
+		boolean status = name.startsWith("Selenium");
+
+	}
+
+}

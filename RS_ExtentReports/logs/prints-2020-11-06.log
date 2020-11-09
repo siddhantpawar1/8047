@@ -1,0 +1,8 @@
+16:23:02.168 [main] INFO  beta.logdemo - Frames count retreived
+16:23:02.191 [main] INFO  beta.logdemo - Successfully switched to frame
+16:23:02.191 [main] DEBUG beta.logdemo - Identifying Draggable objects
+16:23:02.515 [main] INFO  beta.logdemo - Drag and drop success
+16:23:50.338 [main] DEBUG alpha.Demo - I am debugging
+16:23:50.342 [main] INFO  alpha.Demo - Object is Present
+16:23:50.342 [main] ERROR alpha.Demo - Object is not present
+16:23:50.342 [main] FATAL alpha.Demo - This is fatal

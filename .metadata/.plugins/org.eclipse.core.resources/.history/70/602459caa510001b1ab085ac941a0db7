@@ -1,0 +1,19 @@
+package Java_Learning;
+
+public class WhileCondition {
+
+	public static void main(String[] args) {
+		
+	
+		int count = 50;
+		
+		do(count<=65){
+			System.out.println("The count is: "+count);
+			count++;
+				
+			
+		}while(ticket<=100);
+	
+	}
+
+}

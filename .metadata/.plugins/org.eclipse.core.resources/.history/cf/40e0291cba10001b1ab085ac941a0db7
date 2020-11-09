@@ -1,0 +1,28 @@
+package Java_Learning;
+
+public class methoddemo2 {
+
+	public static void main(String[] args) {
+		
+		methoddemo2 MD = new methoddemo2();
+		MD.sub();
+		MD.sub();
+			
+		
+	}
+		
+		public void sum()
+		
+		{
+			System.out.println("It performs addition");
+			
+		}
+		
+		
+		public void sub() {
+			
+			System.out.println("It performs subtracting");
+			
+		}
+
+	}

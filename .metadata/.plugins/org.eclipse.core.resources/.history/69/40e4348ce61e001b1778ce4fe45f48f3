@@ -1,0 +1,34 @@
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Demo2 {
+
+	@Parameters({"URL"})
+	@Test
+	public void FourthTC() {
+		System.out.println("Testing TestNG 4th TC");
+
+	}
+
+	@Test(groups= {"Smoke"}) 
+	public void FifthTC() {
+		System.out.println("Testing TestNG 5th TC");
+
+	}
+
+	@Test
+	public void SixthTC() {
+		System.out.println("Testing TestNG 6th TC");
+
+	}
+
+	@Test(dependsOnMethods=(("SixthTC")))
+	public void API2TC() {
+		System.out.println("Testing TestNG API2");
+	}
+	@Test
+	public void Car2TC() {
+		System.out.println("Testing TestNG Car2");
+	}
+
+}

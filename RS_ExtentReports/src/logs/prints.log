@@ -1,0 +1,4 @@
+14:31:36.394 [main] DEBUG alpha.Demo - I am debugging
+14:31:36.397 [main] INFO  alpha.Demo - Object is Present
+14:31:36.398 [main] ERROR alpha.Demo - Object is not present
+14:31:36.398 [main] FATAL alpha.Demo - This is fatal

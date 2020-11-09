@@ -1,0 +1,10 @@
+package Testcases;
+
+public class RedifLoginpage {
+
+	public static void main(String[] args) {
+	WebDriver driver;
+	By username = By.xpath("//input[@id='login1']");
+	}
+
+}

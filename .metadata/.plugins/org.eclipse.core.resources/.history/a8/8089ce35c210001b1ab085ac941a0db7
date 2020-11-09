@@ -1,0 +1,10 @@
+package Java_Learning;
+
+public class Globalvar_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

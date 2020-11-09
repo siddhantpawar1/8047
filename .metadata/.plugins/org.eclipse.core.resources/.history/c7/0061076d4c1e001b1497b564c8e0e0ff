@@ -1,0 +1,14 @@
+package DataDriven.Framework;
+
+import java.util.ArrayList;
+
+public class testSample {
+
+	public static void main(String[] args) {
+		datadriven d = new datadriven(); 
+	ArrayList data = d.getdata("Add Profile");	
+			
+		
+	}
+
+}
