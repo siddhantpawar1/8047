@@ -14,7 +14,7 @@ public class methoddemo {
 		
 		
 		System.out.println("x value is :"+md.x);
-		System.out.println("x value is :"+md.y);
+		System.out.println("Y value is :"+md.y);
 		
 		
 		

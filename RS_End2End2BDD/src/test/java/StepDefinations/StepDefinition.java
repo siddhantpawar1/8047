@@ -36,12 +36,30 @@ public class StepDefinition extends base {
 	}
 
 	@When("^User enters (.+) and (.+) and logs in $")
-	public void user_enters_and_and_logs_in(String username, String password) throws Throwable {
+	public void user_enters_and_and_logs_in(String username, String Password) throws Throwable {
 		LoginPage Log = new LoginPage(driver);
 		Log.ID().sendKeys(username);
-		Log.Pass().sendKeys(password);
+		Log.Pass().sendKeys(Password);
 		Log.Submit().click();
 	}
+
+	/*
+	 * @When("^User enters test(\\d+)@gmail\\.com and (\\d+) and logs in$") public
+	 * void user_enters_test_gmail_com_and_and_logs_in(CharSequence[] arg1,
+	 * CharSequence[] arg2) throws Throwable { LoginPage Log = new
+	 * LoginPage(driver); Log.ID().sendKeys(arg1); Log.Pass().sendKeys(arg2);
+	 * Log.Submit().click();
+	 * 
+	 * }
+	 * 
+	 * @When("^User enters sidpwr(\\d+)@gmail\\.com and (\\d+) and logs in$") public
+	 * void user_enters_sidpwr_gmail_com_and_and_logs_in(CharSequence[] arg1,
+	 * CharSequence[] arg2) throws Throwable { LoginPage Log = new
+	 * LoginPage(driver); Log.ID().sendKeys(arg1); Log.Pass().sendKeys(arg2);
+	 * Log.Submit().click();
+	 * 
+	 * }
+	 */
 
 	@Then("^Verify the user is successfully logged in$")
 	public void verify_the_user_is_successfully_logged_in() throws Throwable {

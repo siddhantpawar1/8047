@@ -13,16 +13,16 @@ public class Childclass2 extends Baseclass2 {
 	}
 	
 	public void Interestrate() {
-
+		
 		System.out.println("I am in child class");
 		
 	}
 
 
 	public void showmeinterestRate() {
-		
 		super.Interestrate();
 
+		
 		System.out.println("Current interest rate fro  RBI is: " + interest_rate);
 
 	}

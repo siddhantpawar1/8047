@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.testng.eclipse.launchconfig">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/RSAppium_E2EProject"/>
+        <listEntry value="/RS_Appium_E2EProject"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="4"/>
     </listAttribute>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RSAppium_E2EProject"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RS_Appium_E2EProject"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
         <listEntry value="Academy.Listeners"/>

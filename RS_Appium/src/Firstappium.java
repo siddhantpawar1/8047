@@ -11,18 +11,19 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class Firstappium {
 
 	public static AndroidDriver<AndroidElement> Capabilities() throws MalformedURLException {
-		
-		File f=new File("src");
-		File fs =new File(f, "ApiDemos-debug.apk");	
-		
-		System.out.println("Begin First AppiumTest");
-		
+
+		File f = new File("src");
+		File fs = new File(f, "ApiDemos-debug.apk");
+		System.out.println("Begin AppiumTest");
+
 		DesiredCapabilities cap = new DesiredCapabilities();
+
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "siddhantEmulator");
-		//cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
-		
+
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
+
 		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
-		
+
 		AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		return driver;
 	}

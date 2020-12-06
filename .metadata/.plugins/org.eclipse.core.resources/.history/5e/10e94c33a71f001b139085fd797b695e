@@ -1,9 +1,0 @@
-package Testcases;
-
-public class Loginapplication {
-
-	public void login() {
-		
-	
-	}
-	}
